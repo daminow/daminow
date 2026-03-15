@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b080c"/>
+      <stop offset="100%" style="stop-color:#1a1225"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7f40ff"/>
+      <stop offset="100%" style="stop-color:#c2a4ff"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c2a4ff;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#c2a4ff;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- Decorative glows -->
+  <circle cx="150" cy="150" r="120" fill="#7f40ff" opacity="0.08" filter="url(#blur1)"/>
+  <circle cx="750" cy="100" r="100" fill="#fb8dff" opacity="0.06" filter="url(#blur1)"/>
+  <circle cx="450" cy="250" r="80" fill="#c2a4ff" opacity="0.05" filter="url(#blur1)"/>
+
+  <!-- Accent line -->
+  <rect x="100" y="195" width="120" height="2" rx="1" fill="url(#accent)" opacity="0.6"/>
+
+  <!-- Name -->
+  <text x="100" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#eae5ec" letter-spacing="2">
+    TIMUR DAMINOV
+  </text>
+
+  <!-- Role -->
+  <text x="100" y="175" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="400" fill="#c2a4ff" letter-spacing="4">
+    FULL-STACK DEVELOPER
+  </text>
+
+  <!-- Tagline -->
+  <text x="100" y="235" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="300" fill="#adacac" letter-spacing="1">
+    7+ years  ·  40+ projects  ·  Web  ·  AI  ·  Telegram Bots
+  </text>
+
+  <!-- Subtle border bottom -->
+  <rect x="0" y="297" width="900" height="3" fill="url(#accent)" opacity="0.4"/>
+</svg>
