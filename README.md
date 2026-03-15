@@ -28,19 +28,19 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🖥 Platforms</h3>
-      <p>Websites, online stores, dashboards, landing pages. Interfaces that look great and work smoothly on any device.</p>
-      <p><sub>React · TypeScript · Next.js · Vue.js · Three.js · GSAP</sub></p>
+      <h3 align="center">Platforms</h3>
+      <p align="center">Websites, online stores, dashboards, landing pages. Interfaces that look great and work smoothly on any device.</p>
+      <p align="center"><sub>React · TypeScript · Next.js · Vue.js · Three.js · GSAP</sub></p>
     </td>
     <td width="33%" valign="top">
-      <h3>🤖 AI Tools</h3>
-      <p>AI integration into IT products via API: Claude, GPT, Gemini. Language models in business processes and smart interfaces.</p>
-      <p><sub>Claude API · OpenAI · Gemini · LangChain · Python</sub></p>
+      <h3 align="center">AI Tools</h3>
+      <p align="center">AI integration into IT products via API: Claude, GPT, Gemini. Language models in business processes and smart interfaces.</p>
+      <p align="center"><sub>Claude API · OpenAI · Gemini · LangChain · Python</sub></p>
     </td>
     <td width="33%" valign="top">
-      <h3>💬 Telegram Bots</h3>
-      <p>Bots for business with Telegram Pay, Stripe, YooKassa — payments right inside the chat. CRM, notifications, FSM logic.</p>
-      <p><sub>aiogram · Telegram Pay · Stripe · Webhook · Redis</sub></p>
+      <h3 align="center">Telegram Bots</h3>
+      <p align="center">Bots for business with Telegram Pay, Stripe, YooKassa — payments right inside the chat. CRM, notifications, FSM logic.</p>
+      <p align="center"><sub>aiogram · Telegram Pay · Stripe · Webhook · Redis</sub></p>
     </td>
   </tr>
 </table>
@@ -124,8 +124,10 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 | Project | Type | Stack | Link |
 |---------|------|-------|------|
 | **RU PMDG** | Corporate website | React, TypeScript, MUI, Node.js | [rupmdg.com](https://rupmdg.com) |
-| **Online Store** | E-commerce | Go, React, PostgreSQL, Stripe | — |
-| **SEHRIYO Bot** | Telegram bot | Python, aiogram, FSM | — |
+| **OrtoUZ** | Medical platform | TypeScript | Private |
+| **AI Control Center** | AI management | Python | Private |
+| **Online Store** | E-commerce | Go, React, PostgreSQL, Stripe | Private |
+| **SEHRIYO Bot** | Telegram bot | Python, aiogram, FSM | Private |
 | **Portfolio** | Personal site | React, Three.js, GSAP, TypeScript | [daminov.net](https://daminov.net) |
 
 > See all projects at [daminov.net](https://daminov.net)
@@ -158,9 +160,9 @@ Project Management       ██████████████████�
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=daminow&show_icons=true&hide_border=true&bg_color=0b080c&title_color=c2a4ff&text_color=eae5ec&icon_color=c2a4ff&ring_color=7f40ff" height="170" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=daminow&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0b080c&title_color=c2a4ff&text_color=eae5ec&icon_color=c2a4ff&ring_color=7f40ff" height="170" alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daminow&layout=compact&hide_border=true&bg_color=0b080c&title_color=c2a4ff&text_color=eae5ec" height="170" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daminow&layout=compact&hide_border=true&bg_color=0b080c&title_color=c2a4ff&text_color=eae5ec&langs_count=8" height="170" alt="Top Languages"/>
 </p>
 
 <p align="center">
