@@ -9,13 +9,17 @@
   <a href="mailto:t@daminov.net"><img src="https://img.shields.io/badge/Email-c2a4ff?style=for-the-badge&logo=gmail&logoColor=0b080c" alt="Email"/></a>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=C2A4FF&center=true&vCenter=true&random=false&width=600&lines=Full-Stack+Developer+%7C+7%2B+Years;Building+Web+%C2%B7+AI+%C2%B7+Bots+%C2%B7+Platforms;40%2B+Projects+Delivered;React+%C2%B7+Node.js+%C2%B7+Python+%C2%B7+Go" alt="Typing SVG" />
+</p>
+
 <br/>
 
 ## About
 
-I've been building websites and web apps for over **7 years**. I make sure everything loads fast, looks modern, and is easy to use. Over that time I've delivered more than **40 projects** — from simple landing pages to complex online services.
+I build end-to-end web products — from interface and motion to backend logic, integrations, and launch. Over **7 years** and **40+ projects**, I've shipped everything from landing pages to complex SaaS platforms.
 
-I integrate AI into products, build Telegram bots with payments and CRM, and develop full-stack platforms from scratch.
+What sets me apart: I integrate **AI into products** (Claude, GPT, Gemini via API), build **Telegram bots with payments and CRM**, and deliver **full-stack platforms** with clean code and fast performance.
 
 <br/>
 
@@ -28,19 +32,34 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3 align="center">Platforms</h3>
-      <p align="center">Websites, online stores, dashboards, landing pages. Interfaces that look great and work smoothly on any device.</p>
-      <p align="center"><sub>React · TypeScript · Next.js · Vue.js · Three.js · GSAP</sub></p>
+      <h3 align="center">Web Platforms</h3>
+      <p align="center">Websites, online stores, dashboards, landing pages. Responsive interfaces that look sharp and perform fast on any device.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React-0b080c?style=flat-square&logo=react&logoColor=c2a4ff" alt="React"/>
+        <img src="https://img.shields.io/badge/Next.js-0b080c?style=flat-square&logo=nextdotjs&logoColor=c2a4ff" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/TypeScript-0b080c?style=flat-square&logo=typescript&logoColor=c2a4ff" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/Three.js-0b080c?style=flat-square&logo=threedotjs&logoColor=c2a4ff" alt="Three.js"/>
+      </p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">AI Tools</h3>
-      <p align="center">AI integration into IT products via API: Claude, GPT, Gemini. Language models in business processes and smart interfaces.</p>
-      <p align="center"><sub>Claude API · OpenAI · Gemini · LangChain · Python</sub></p>
+      <h3 align="center">AI Integration</h3>
+      <p align="center">Embedding language models into business workflows. Smart assistants, content generation, and AI-powered interfaces via API.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Claude-0b080c?style=flat-square&logo=anthropic&logoColor=c2a4ff" alt="Claude"/>
+        <img src="https://img.shields.io/badge/OpenAI-0b080c?style=flat-square&logo=openai&logoColor=c2a4ff" alt="OpenAI"/>
+        <img src="https://img.shields.io/badge/Gemini-0b080c?style=flat-square&logo=googlegemini&logoColor=c2a4ff" alt="Gemini"/>
+        <img src="https://img.shields.io/badge/Python-0b080c?style=flat-square&logo=python&logoColor=c2a4ff" alt="Python"/>
+      </p>
     </td>
     <td width="33%" valign="top">
       <h3 align="center">Telegram Bots</h3>
-      <p align="center">Bots for business with Telegram Pay, Stripe, YooKassa — payments right inside the chat. CRM, notifications, FSM logic.</p>
-      <p align="center"><sub>aiogram · Telegram Pay · Stripe · Webhook · Redis</sub></p>
+      <p align="center">Bots with built-in payments (Telegram Pay, Stripe, YooKassa), CRM integration, notifications, and FSM logic.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/aiogram-0b080c?style=flat-square&logo=telegram&logoColor=c2a4ff" alt="aiogram"/>
+        <img src="https://img.shields.io/badge/Stripe-0b080c?style=flat-square&logo=stripe&logoColor=c2a4ff" alt="Stripe"/>
+        <img src="https://img.shields.io/badge/Redis-0b080c?style=flat-square&logo=redis&logoColor=c2a4ff" alt="Redis"/>
+        <img src="https://img.shields.io/badge/Webhook-0b080c?style=flat-square&logo=webhooks&logoColor=c2a4ff" alt="Webhook"/>
+      </p>
     </td>
   </tr>
 </table>
@@ -52,6 +71,10 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 <br/>
 
 ## Tech Stack
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
 
 **Frontend**
 
@@ -67,7 +90,6 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 ![Three.js](https://img.shields.io/badge/Three.js-0b080c?style=flat-square&logo=threedotjs&logoColor=c2a4ff)
 ![GSAP](https://img.shields.io/badge/GSAP-0b080c?style=flat-square&logo=greensock&logoColor=c2a4ff)
 ![Vite](https://img.shields.io/badge/Vite-0b080c?style=flat-square&logo=vite&logoColor=c2a4ff)
-![Webpack](https://img.shields.io/badge/Webpack-0b080c?style=flat-square&logo=webpack&logoColor=c2a4ff)
 
 **Backend**
 
@@ -78,6 +100,9 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 ![FastAPI](https://img.shields.io/badge/FastAPI-0b080c?style=flat-square&logo=fastapi&logoColor=c2a4ff)
 ![Go](https://img.shields.io/badge/Go-0b080c?style=flat-square&logo=go&logoColor=c2a4ff)
 ![REST API](https://img.shields.io/badge/REST_API-0b080c?style=flat-square&logo=openapiinitiative&logoColor=c2a4ff)
+
+  </td>
+    <td valign="top" width="50%">
 
 **Databases**
 
@@ -99,12 +124,7 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 ![GitHub](https://img.shields.io/badge/GitHub-0b080c?style=flat-square&logo=github&logoColor=c2a4ff)
 ![Nginx](https://img.shields.io/badge/Nginx-0b080c?style=flat-square&logo=nginx&logoColor=c2a4ff)
 ![Linux](https://img.shields.io/badge/Linux-0b080c?style=flat-square&logo=linux&logoColor=c2a4ff)
-
-**Testing**
-
-![Cypress](https://img.shields.io/badge/Cypress-0b080c?style=flat-square&logo=cypress&logoColor=c2a4ff)
-![Jest](https://img.shields.io/badge/Jest-0b080c?style=flat-square&logo=jest&logoColor=c2a4ff)
-![Selenium](https://img.shields.io/badge/Selenium-0b080c?style=flat-square&logo=selenium&logoColor=c2a4ff)
+![Vercel](https://img.shields.io/badge/Vercel-0b080c?style=flat-square&logo=vercel&logoColor=c2a4ff)
 
 **Payments**
 
@@ -112,6 +132,10 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 ![PayPal](https://img.shields.io/badge/PayPal-0b080c?style=flat-square&logo=paypal&logoColor=c2a4ff)
 ![Apple Pay](https://img.shields.io/badge/Apple_Pay-0b080c?style=flat-square&logo=applepay&logoColor=c2a4ff)
 ![Google Pay](https://img.shields.io/badge/Google_Pay-0b080c?style=flat-square&logo=googlepay&logoColor=c2a4ff)
+
+  </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -121,16 +145,78 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 
 ## Featured Projects
 
-| Project | Type | Stack | Link |
-|---------|------|-------|------|
-| **RU PMDG** | Corporate website | React, TypeScript, MUI, Node.js | [rupmdg.com](https://rupmdg.com) |
-| **OrtoUZ** | Medical platform | TypeScript | Private |
-| **AI Control Center** | AI management | Python | Private |
-| **Online Store** | E-commerce | Go, React, PostgreSQL, Stripe | Private |
-| **SEHRIYO Bot** | Telegram bot | Python, aiogram, FSM | Private |
-| **Portfolio** | Personal site | React, Three.js, GSAP, TypeScript | [daminov.net](https://daminov.net) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center"><a href="https://rupmdg.com">RU PMDG</a></h3>
+      <p align="center">Corporate website for a pharmaceutical company with dynamic content, admin panel, and SEO optimization.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React-0b080c?style=flat-square&logo=react&logoColor=c2a4ff" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-0b080c?style=flat-square&logo=typescript&logoColor=c2a4ff" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/MUI-0b080c?style=flat-square&logo=mui&logoColor=c2a4ff" alt="MUI"/>
+        <img src="https://img.shields.io/badge/Node.js-0b080c?style=flat-square&logo=nodedotjs&logoColor=c2a4ff" alt="Node.js"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center"><a href="https://daminov.net">Portfolio</a></h3>
+      <p align="center">Personal website with 3D scenes, physics-based interactions, AI chat assistant, and multilingual support.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React-0b080c?style=flat-square&logo=react&logoColor=c2a4ff" alt="React"/>
+        <img src="https://img.shields.io/badge/Three.js-0b080c?style=flat-square&logo=threedotjs&logoColor=c2a4ff" alt="Three.js"/>
+        <img src="https://img.shields.io/badge/GSAP-0b080c?style=flat-square&logo=greensock&logoColor=c2a4ff" alt="GSAP"/>
+        <img src="https://img.shields.io/badge/TypeScript-0b080c?style=flat-square&logo=typescript&logoColor=c2a4ff" alt="TypeScript"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">AI Control Center</h3>
+      <p align="center">Management dashboard for multiple AI models — monitoring, prompt engineering, and usage analytics.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-0b080c?style=flat-square&logo=python&logoColor=c2a4ff" alt="Python"/>
+        <img src="https://img.shields.io/badge/FastAPI-0b080c?style=flat-square&logo=fastapi&logoColor=c2a4ff" alt="FastAPI"/>
+        <img src="https://img.shields.io/badge/Claude_API-0b080c?style=flat-square&logo=anthropic&logoColor=c2a4ff" alt="Claude API"/>
+        <img src="https://img.shields.io/badge/React-0b080c?style=flat-square&logo=react&logoColor=c2a4ff" alt="React"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">E-Commerce Platform</h3>
+      <p align="center">Full-stack online store with payment processing, inventory management, and real-time order tracking.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Go-0b080c?style=flat-square&logo=go&logoColor=c2a4ff" alt="Go"/>
+        <img src="https://img.shields.io/badge/React-0b080c?style=flat-square&logo=react&logoColor=c2a4ff" alt="React"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-0b080c?style=flat-square&logo=postgresql&logoColor=c2a4ff" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Stripe-0b080c?style=flat-square&logo=stripe&logoColor=c2a4ff" alt="Stripe"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">SEHRIYO Bot</h3>
+      <p align="center">Telegram bot for a residential complex — apartment selection, booking, payments, and admin notifications via FSM.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-0b080c?style=flat-square&logo=python&logoColor=c2a4ff" alt="Python"/>
+        <img src="https://img.shields.io/badge/aiogram-0b080c?style=flat-square&logo=telegram&logoColor=c2a4ff" alt="aiogram"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-0b080c?style=flat-square&logo=postgresql&logoColor=c2a4ff" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Redis-0b080c?style=flat-square&logo=redis&logoColor=c2a4ff" alt="Redis"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">OrtoUZ</h3>
+      <p align="center">Medical platform for orthodontic clinic — appointment scheduling, patient records, and treatment tracking.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/TypeScript-0b080c?style=flat-square&logo=typescript&logoColor=c2a4ff" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/React-0b080c?style=flat-square&logo=react&logoColor=c2a4ff" alt="React"/>
+        <img src="https://img.shields.io/badge/Node.js-0b080c?style=flat-square&logo=nodedotjs&logoColor=c2a4ff" alt="Node.js"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-0b080c?style=flat-square&logo=postgresql&logoColor=c2a4ff" alt="PostgreSQL"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
-> See all projects at [daminov.net](https://daminov.net)
+<p align="center">
+  <a href="https://daminov.net"><img src="https://img.shields.io/badge/View_All_Projects-daminov.net-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="All Projects"/></a>
+</p>
 
 <br/>
 
@@ -140,16 +226,28 @@ I integrate AI into products, build Telegram bots with payments and CRM, and dev
 
 ## Experience
 
-```
-Frontend Development     ██████████████████████░░░  5+ years
-Backend Development      █████████████████████████  6+ years
-Databases                ████████████████░░░░░░░░░  4+ years
-DevOps                   ████████████████░░░░░░░░░  4+ years
-AI & LLM Integration     ████████████████░░░░░░░░░  4+ years
-Design, Photo & Video    █████████████████████████  7+ years
-CMS & Website Builders   █████████████████████████  7+ years
-Project Management       ██████████████████████░░░  5+ years
-```
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://img.shields.io/badge/Backend_Development-6+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="Backend"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Design,_Photo_&_Video-7+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="Design"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Frontend_Development-5+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="Frontend"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Project_Management-5+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="PM"/>
+    </td>
+    <td width="50%">
+      <img src="https://img.shields.io/badge/CMS_&_Website_Builders-7+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="CMS"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Databases-4+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="DB"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/DevOps-4+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="DevOps"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/AI_&_LLM_Integration-4+_years-c2a4ff?style=for-the-badge&labelColor=0b080c" alt="AI"/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -166,7 +264,17 @@ Project Management       ██████████████████�
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=daminow&hide_border=true&background=0b080c&ring=7f40ff&fire=c2a4ff&currStreakLabel=c2a4ff&sideLabels=c2a4ff&currStreakNum=eae5ec&sideNums=eae5ec&dates=5e5e5e" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=daminow&hide_border=true&background=0b080c&ring=7f40ff&fire=c2a4ff&currStreakLabel=c2a4ff&sideLabels=c2a4ff&currStreakNum=eae5ec&sideNums=eae5ec&dates=5e5e5e" alt="GitHub Streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=daminow&bg_color=0b080c&color=c2a4ff&line=7f40ff&point=c2a4ff&area=true&area_color=7f40ff&hide_border=true" width="900" alt="Activity Graph"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=daminow&theme=discord&no-frame=true&no-bg=true&column=6&margin-w=15&margin-h=15" alt="Trophies"/>
+  </a>
 </p>
 
 <br/>
@@ -177,12 +285,16 @@ Project Management       ██████████████████�
 
 <p align="center">
   <a href="https://daminov.net"><img src="https://img.shields.io/badge/Portfolio-daminov.net-c2a4ff?style=flat-square&labelColor=0b080c" alt="Portfolio"/></a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="https://t.me/tim_daminov"><img src="https://img.shields.io/badge/Telegram-@tim__daminov-c2a4ff?style=flat-square&logo=telegram&labelColor=0b080c" alt="Telegram"/></a>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <a href="mailto:t@daminov.net"><img src="https://img.shields.io/badge/Email-t@daminov.net-c2a4ff?style=flat-square&logo=gmail&labelColor=0b080c" alt="Email"/></a>
 </p>
 
 <p align="center">
-  <sub>Built with attention to detail — just like my code.</sub>
+  <img src="https://komarev.com/ghpvc/?username=daminow&color=7f40ff&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+</p>
+
+<p align="center">
+  <sub>Open to new projects — <a href="https://t.me/tim_daminov">let's build something great</a></sub>
 </p>
