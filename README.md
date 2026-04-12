@@ -258,23 +258,15 @@ What sets me apart: I integrate **AI into products** (Claude, GPT, Gemini via AP
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=daminow&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0b080c&title_color=c2a4ff&text_color=eae5ec&icon_color=c2a4ff&ring_color=7f40ff" height="170" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daminow&layout=compact&hide_border=true&bg_color=0b080c&title_color=c2a4ff&text_color=eae5ec&langs_count=8" height="170" alt="Top Languages"/>
+  <img src="stats.svg" alt="GitHub Stats"/>
+</p>
+
+<p align="center">
+  <img src="languages.svg" alt="Top Languages"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=daminow&hide_border=true&background=0b080c&ring=7f40ff&fire=c2a4ff&currStreakLabel=c2a4ff&sideLabels=c2a4ff&currStreakNum=eae5ec&sideNums=eae5ec&dates=5e5e5e" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=daminow&bg_color=0b080c&color=c2a4ff&line=7f40ff&point=c2a4ff&area=true&area_color=7f40ff&hide_border=true" width="900" alt="Activity Graph"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=daminow&theme=discord&no-frame=true&no-bg=true&column=6&margin-w=15&margin-h=15" alt="Trophies"/>
-  </a>
 </p>
 
 <br/>

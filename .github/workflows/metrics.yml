@@ -1,0 +1,60 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: GitHub Stats Card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: daminow
+          template: classic
+          base: header, activity, community, repositories
+          base_indepth: yes
+          config_display: large
+          config_timezone: Europe/Moscow
+          config_padding: 0, 8 + 11%
+          extras_css: |
+            * { font-family: 'Segoe UI', sans-serif; }
+            h2 { font-size: 16px !important; }
+            svg { background: #0b080c; color: #eae5ec; }
+            .field { color: #c2a4ff !important; }
+            section > .field svg { fill: #c2a4ff !important; }
+          plugin_activity: no
+
+      - name: Languages Card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: daminow
+          template: classic
+          base: ""
+          config_display: large
+          config_timezone: Europe/Moscow
+          config_padding: 0, 8 + 11%
+          extras_css: |
+            * { font-family: 'Segoe UI', sans-serif; }
+            svg { background: #0b080c; color: #eae5ec; }
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: "0:#c2a4ff, 1:#7f40ff, 2:#fb8dff, 3:#a78bfa, 4:#8b5cf6, 5:#6d28d9, 6:#4c1d95"
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_recent_load: 400
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 1%
