@@ -266,11 +266,7 @@ What sets me apart: I integrate **AI into products** (Claude, GPT, Gemini via AP
 </p>
 
 <p align="center">
-  <img src="isocalendar.svg" alt="Contribution calendar and commit streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=daminow&bg_color=0b080c&color=c2a4ff&line=7f40ff&point=c2a4ff&area=true&area_color=7f40ff&hide_border=true" width="900" alt="Activity Graph"/>
+  <img src="https://raw.githubusercontent.com/daminow/daminow/output/snake.svg" width="900" alt="Contribution graph"/>
 </p>
 
 <br/>
