@@ -16,14 +16,18 @@ jobs:
       contents: write
     steps:
       - name: GitHub Stats Card
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           filename: stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: daminow
           template: classic
           base: header, activity, community, repositories
           base_indepth: yes
+          plugins_errors_fatal: no
+          retries: 3
+          retries_delay: 300
           config_display: large
           config_timezone: Europe/Moscow
           config_padding: 0, 8 + 11%
@@ -36,13 +40,17 @@ jobs:
           plugin_activity: no
 
       - name: Languages Card
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           filename: languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: daminow
           template: classic
           base: ""
+          plugins_errors_fatal: no
+          retries: 3
+          retries_delay: 300
           config_display: large
           config_timezone: Europe/Moscow
           config_padding: 0, 8 + 11%
@@ -58,3 +66,21 @@ jobs:
           plugin_languages_recent_load: 400
           plugin_languages_sections: most-used
           plugin_languages_threshold: 1%
+
+      - name: Streak / Isometric Calendar
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          filename: isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: daminow
+          base: ""
+          plugins_errors_fatal: no
+          retries: 3
+          retries_delay: 300
+          config_timezone: Europe/Moscow
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          extras_css: |
+            * { font-family: 'Segoe UI', sans-serif; }
+            svg { background: #0b080c; color: #eae5ec; }
