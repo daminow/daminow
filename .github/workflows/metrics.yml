@@ -70,22 +70,3 @@ jobs:
           plugin_languages_recent_load: 400
           plugin_languages_sections: most-used
           plugin_languages_threshold: 1%
-
-      - name: Streak / Isometric Calendar
-        continue-on-error: true
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          filename: isocalendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: daminow
-          base: ""
-          plugins_errors_fatal: no
-          retries: 3
-          retries_delay: 300
-          config_timezone: Europe/Moscow
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          extras_css: |
-            * { font-family: 'Segoe UI', sans-serif; }
-            svg { background: #0b080c; color: #eae5ec; }
