@@ -258,15 +258,19 @@ What sets me apart: I integrate **AI into products** (Claude, GPT, Gemini via AP
 ## GitHub Stats
 
 <p align="center">
-  <img src="stats.svg" alt="GitHub Stats"/>
+  <img src="stats.svg" alt="Timur Daminov's GitHub stats"/>
 </p>
 
 <p align="center">
-  <img src="languages.svg" alt="Top Languages"/>
+  <img src="languages.svg" alt="Most used languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=daminow&hide_border=true&background=0b080c&ring=7f40ff&fire=c2a4ff&currStreakLabel=c2a4ff&sideLabels=c2a4ff&currStreakNum=eae5ec&sideNums=eae5ec&dates=5e5e5e" alt="GitHub Streak"/>
+  <img src="isocalendar.svg" alt="Contribution calendar and commit streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=daminow&bg_color=0b080c&color=c2a4ff&line=7f40ff&point=c2a4ff&area=true&area_color=7f40ff&hide_border=true" width="900" alt="Activity Graph"/>
 </p>
 
 <br/>
