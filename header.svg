@@ -6,12 +6,12 @@
       <stop offset="55%" stop-color="#120d19"/>
       <stop offset="100%" stop-color="#1a1225"/>
     </linearGradient>
-    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7f40ff"/>
       <stop offset="100%" stop-color="#c2a4ff"/>
     </linearGradient>
     <!-- a <line> has a zero-height bounding box, so objectBoundingBox units would not paint -->
-    <linearGradient id="ruleLine" gradientUnits="userSpaceOnUse" x1="384" y1="0" x2="516" y2="0">
+    <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="395" y1="0" x2="505" y2="0">
       <stop offset="0%" stop-color="#7f40ff"/>
       <stop offset="100%" stop-color="#c2a4ff"/>
     </linearGradient>
@@ -24,11 +24,11 @@
       <feGaussianBlur stdDeviation="38"/>
     </filter>
     <style>
-      .name { animation: rise 0.9s ease-out 0.15s both; }
-      .rule { animation: draw 1.1s ease-out 0.45s both; stroke-dasharray: 132; }
-      .role { animation: rise 0.9s ease-out 0.5s both; }
-      .tag  { animation: rise 0.9s ease-out 0.75s both; }
-      .pills { animation: rise 0.9s ease-out 0.95s both; }
+      .name   { animation: rise 0.9s ease-out 0.15s both; }
+      .role   { animation: rise 0.9s ease-out 0.40s both; }
+      .models { animation: rise 0.9s ease-out 0.60s both; }
+      .rule   { animation: draw 1.1s ease-out 0.80s both; stroke-dasharray: 110; }
+      .proof  { animation: rise 0.9s ease-out 1.00s both; }
       .b0 { animation: drift0 14s ease-in-out infinite; }
       .b1 { animation: drift1 18s ease-in-out infinite; }
       .b2 { animation: drift2 16s ease-in-out infinite; }
@@ -43,32 +43,17 @@
         to   { opacity: 1; transform: translateY(0); }
       }
       @keyframes draw {
-        from { stroke-dashoffset: 132; }
+        from { stroke-dashoffset: 110; }
         to   { stroke-dashoffset: 0; }
       }
-      @keyframes drift0 {
-        0%, 100% { transform: translate(0, 0); }
-        50%      { transform: translate(26px, -14px); }
-      }
-      @keyframes drift1 {
-        0%, 100% { transform: translate(0, 0); }
-        50%      { transform: translate(-22px, 12px); }
-      }
-      @keyframes drift2 {
-        0%, 100% { transform: translate(0, 0); }
-        50%      { transform: translate(14px, 16px); }
-      }
-      @keyframes twinkle {
-        0%, 100% { opacity: 0.20; }
-        50%      { opacity: 0.75; }
-      }
-      @keyframes breathe {
-        0%, 100% { opacity: 0.55; }
-        50%      { opacity: 0.30; }
-      }
+      @keyframes drift0 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(26px, -14px); } }
+      @keyframes drift1 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-22px, 12px); } }
+      @keyframes drift2 { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(14px, 16px); } }
+      @keyframes twinkle { 0%, 100% { opacity: 0.20; } 50% { opacity: 0.75; } }
+      @keyframes breathe { 0%, 100% { opacity: 0.55; } 50% { opacity: 0.30; } }
 
       @media (prefers-reduced-motion: reduce) {
-        .name, .rule, .role, .tag, .pills, .b0, .b1, .b2, .dot, .bar {
+        .name, .role, .models, .rule, .proof, .b0, .b1, .b2, .dot, .bar {
           animation: none;
           opacity: 1;
         }
@@ -98,29 +83,41 @@
   </g>
 
   <g fill="#c2a4ff" opacity="0.30">
-    <circle class="dot" cx="118" cy="196" r="2"/>
-    <circle class="dot" cx="792" cy="58" r="2.5"/>
-    <circle class="dot" cx="712" cy="204" r="1.8"/>
-    <circle class="dot" cx="196" cy="52" r="1.8"/>
+    <circle class="dot" cx="72" cy="206" r="2"/>
+    <circle class="dot" cx="836" cy="42" r="2.5"/>
+    <circle class="dot" cx="806" cy="214" r="1.8"/>
+    <circle class="dot" cx="84" cy="44" r="1.8"/>
   </g>
 
-  <text class="name" x="450" y="74" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="3" fill="#eae5ec">TIMUR DAMINOV</text>
+  <text class="name" x="450" y="57" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3" fill="#eae5ec">TIMUR DAMINOV</text>
 
-  <line class="rule" x1="384" y1="94" x2="516" y2="94" stroke="url(#ruleLine)" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="role" x="450" y="85" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="4.5" fill="url(#role)">TECHNICAL PRODUCT MANAGER</text>
 
-  <text class="role" x="450" y="126" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4.5" fill="url(#role)">TECHNICAL PRODUCT MANAGER</text>
+  <text class="models" x="450" y="107" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="1.5" fill="#8a8496">B2B  /  B2C  /  B2B2C  |  AVIATION  /  MEDTECH  /  EDTECH  /  E-COMMERCE</text>
 
-  <text class="tag" x="450" y="158" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" letter-spacing="2" fill="#9a94a8">B2B  /  B2C  /  B2B2C  /  AI  /  API</text>
+  <line class="rule" x1="395" y1="127" x2="505" y2="127" stroke="url(#rule)" stroke-width="2.5" stroke-linecap="round"/>
 
-  <g class="pills">
-    <rect x="356" y="172" width="78" height="24" rx="12" fill="#7f40ff" fill-opacity="0.20" stroke="#c2a4ff" stroke-opacity="0.30"/>
-    <text x="395" y="188" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#d9c9ff">4 YEARS</text>
+  <g class="proof">
+    <g stroke="#c2a4ff" stroke-opacity="0.16" stroke-width="1">
+      <line x1="250" y1="155" x2="250" y2="205"/>
+      <line x1="450" y1="155" x2="450" y2="205"/>
+      <line x1="650" y1="155" x2="650" y2="205"/>
+    </g>
 
-    <rect x="446" y="172" width="98" height="24" rx="12" fill="#7f40ff" fill-opacity="0.20" stroke="#c2a4ff" stroke-opacity="0.30"/>
-    <text x="495" y="188" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#d9c9ff">3 PRODUCTS</text>
+    <text x="150" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">3 000</text>
+    <text x="150" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">sales per month</text>
+
+    <text x="350" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">6 months</text>
+    <text x="350" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">concept to launch</text>
+
+    <text x="550" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">40%</text>
+    <text x="550" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">support handled by AI</text>
+
+    <text x="750" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">20+</text>
+    <text x="750" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">people coordinated</text>
   </g>
 
-  <rect class="bar" x="0" y="237" width="900" height="3" fill="url(#rule)" opacity="0.55"/>
+  <rect class="bar" x="0" y="237" width="900" height="3" fill="url(#bar)" opacity="0.55"/>
 
   <rect x="0.5" y="0.5" width="899" height="239" rx="10" fill="none" stroke="#c2a4ff" stroke-opacity="0.14"/>
 </svg>
