@@ -114,21 +114,21 @@
 
   <!-- Role -->
   <text class="role" x="100" y="175" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="400" fill="url(#accent2)" letter-spacing="5">
-    FULL-STACK DEVELOPER
+    TECHNICAL PRODUCT MANAGER
   </text>
 
   <!-- Tagline -->
   <text class="tagline" x="100" y="240" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="300" fill="#8a8694" letter-spacing="2">
-    WEB  &amp;  AI  &amp;  BOTS  &amp;  DESIGN
+    B2B  /  B2C  /  B2B2C  /  AI  /  API
   </text>
 
   <!-- Stats pills -->
   <g class="tagline">
-    <rect x="100" y="255" width="70" height="22" rx="11" fill="#7f40ff" opacity="0.15"/>
-    <text x="135" y="270" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c2a4ff" text-anchor="middle" font-weight="500">7+ YRS</text>
+    <rect x="100" y="255" width="78" height="22" rx="11" fill="#7f40ff" opacity="0.15"/>
+    <text x="139" y="270" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c2a4ff" text-anchor="middle" font-weight="500">4 YEARS</text>
 
-    <rect x="180" y="255" width="90" height="22" rx="11" fill="#7f40ff" opacity="0.15"/>
-    <text x="225" y="270" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c2a4ff" text-anchor="middle" font-weight="500">40+ PROJ</text>
+    <rect x="188" y="255" width="98" height="22" rx="11" fill="#7f40ff" opacity="0.15"/>
+    <text x="237" y="270" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c2a4ff" text-anchor="middle" font-weight="500">3 PRODUCTS</text>
   </g>
 
   <!-- Bottom accent line -->
