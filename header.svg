@@ -10,6 +10,11 @@
       <stop offset="0%" stop-color="#7f40ff"/>
       <stop offset="100%" stop-color="#c2a4ff"/>
     </linearGradient>
+    <!-- a <line> has a zero-height bounding box, so objectBoundingBox units would not paint -->
+    <linearGradient id="ruleLine" gradientUnits="userSpaceOnUse" x1="384" y1="0" x2="516" y2="0">
+      <stop offset="0%" stop-color="#7f40ff"/>
+      <stop offset="100%" stop-color="#c2a4ff"/>
+    </linearGradient>
     <linearGradient id="role" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#c2a4ff"/>
       <stop offset="50%" stop-color="#e8dcff"/>
@@ -101,7 +106,7 @@
 
   <text class="name" x="450" y="74" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="3" fill="#eae5ec">TIMUR DAMINOV</text>
 
-  <line class="rule" x1="384" y1="94" x2="516" y2="94" stroke="url(#rule)" stroke-width="2.5" stroke-linecap="round"/>
+  <line class="rule" x1="384" y1="94" x2="516" y2="94" stroke="url(#ruleLine)" stroke-width="2.5" stroke-linecap="round"/>
 
   <text class="role" x="450" y="126" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4.5" fill="url(#role)">TECHNICAL PRODUCT MANAGER</text>
 
