@@ -2,18 +2,18 @@
   <title>Timur Daminov, Technical Product Manager</title>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b080c"/>
-      <stop offset="55%" stop-color="#120d19"/>
-      <stop offset="100%" stop-color="#1a1225"/>
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#fbf8ff"/>
+      <stop offset="100%" stop-color="#f1e9ff"/>
     </linearGradient>
     <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7f40ff"/>
-      <stop offset="100%" stop-color="#c2a4ff"/>
+      <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
     <linearGradient id="role" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c2a4ff"/>
-      <stop offset="50%" stop-color="#e8dcff"/>
-      <stop offset="100%" stop-color="#fb8dff"/>
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a21caf"/>
     </linearGradient>
     <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="38"/>
@@ -58,7 +58,7 @@
         50%      { opacity: 0.75; }
       }
       @keyframes breathe {
-        0%, 100% { opacity: 0.55; }
+        0%, 100% { opacity: 0.60; }
         50%      { opacity: 0.30; }
       }
 
@@ -74,7 +74,7 @@
 
   <rect width="900" height="240" rx="10" fill="url(#bg)"/>
 
-  <g opacity="0.045" stroke="#c2a4ff" stroke-width="0.6">
+  <g opacity="0.055" stroke="#7f40ff" stroke-width="0.6">
     <line x1="0" y1="48" x2="900" y2="48"/>
     <line x1="0" y1="96" x2="900" y2="96"/>
     <line x1="0" y1="144" x2="900" y2="144"/>
@@ -87,35 +87,35 @@
   </g>
 
   <g filter="url(#soft)">
-    <circle class="b0" cx="150" cy="70" r="120" fill="#7f40ff" opacity="0.16"/>
-    <circle class="b1" cx="760" cy="180" r="110" fill="#fb8dff" opacity="0.10"/>
-    <circle class="b2" cx="470" cy="30" r="100" fill="#c2a4ff" opacity="0.09"/>
+    <circle class="b0" cx="150" cy="70" r="120" fill="#7f40ff" opacity="0.10"/>
+    <circle class="b1" cx="760" cy="180" r="110" fill="#fb8dff" opacity="0.08"/>
+    <circle class="b2" cx="470" cy="30" r="100" fill="#c2a4ff" opacity="0.07"/>
   </g>
 
-  <g fill="#c2a4ff" opacity="0.30">
+  <g fill="#7f40ff" opacity="0.28">
     <circle class="dot" cx="118" cy="196" r="2"/>
     <circle class="dot" cx="792" cy="58" r="2.5"/>
     <circle class="dot" cx="712" cy="204" r="1.8"/>
     <circle class="dot" cx="196" cy="52" r="1.8"/>
   </g>
 
-  <text class="name" x="450" y="74" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="3" fill="#eae5ec">TIMUR DAMINOV</text>
+  <text class="name" x="450" y="74" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="3" fill="#17141f">TIMUR DAMINOV</text>
 
   <line class="rule" x1="384" y1="94" x2="516" y2="94" stroke="url(#rule)" stroke-width="2.5" stroke-linecap="round"/>
 
   <text class="role" x="450" y="126" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4.5" fill="url(#role)">TECHNICAL PRODUCT MANAGER</text>
 
-  <text class="tag" x="450" y="158" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" letter-spacing="2" fill="#9a94a8">B2B  /  B2C  /  B2B2C  /  AI  /  API</text>
+  <text class="tag" x="450" y="158" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" letter-spacing="2" fill="#5a5468">B2B  /  B2C  /  B2B2C  /  AI  /  API</text>
 
   <g class="pills">
-    <rect x="356" y="172" width="78" height="24" rx="12" fill="#7f40ff" fill-opacity="0.20" stroke="#c2a4ff" stroke-opacity="0.30"/>
-    <text x="395" y="188" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#d9c9ff">4 YEARS</text>
+    <rect x="356" y="172" width="78" height="24" rx="12" fill="#7f40ff" fill-opacity="0.10" stroke="#7f40ff" stroke-opacity="0.28"/>
+    <text x="395" y="188" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#5b21b6">4 YEARS</text>
 
-    <rect x="446" y="172" width="98" height="24" rx="12" fill="#7f40ff" fill-opacity="0.20" stroke="#c2a4ff" stroke-opacity="0.30"/>
-    <text x="495" y="188" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#d9c9ff">3 PRODUCTS</text>
+    <rect x="446" y="172" width="98" height="24" rx="12" fill="#7f40ff" fill-opacity="0.10" stroke="#7f40ff" stroke-opacity="0.28"/>
+    <text x="495" y="188" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#5b21b6">3 PRODUCTS</text>
   </g>
 
-  <rect class="bar" x="0" y="237" width="900" height="3" fill="url(#rule)" opacity="0.55"/>
+  <rect class="bar" x="0" y="237" width="900" height="3" fill="url(#rule)" opacity="0.60"/>
 
-  <rect x="0.5" y="0.5" width="899" height="239" rx="10" fill="none" stroke="#c2a4ff" stroke-opacity="0.14"/>
+  <rect x="0.5" y="0.5" width="899" height="239" rx="10" fill="none" stroke="#7f40ff" stroke-opacity="0.20"/>
 </svg>

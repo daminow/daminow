@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="header.svg" alt="Timur Daminov, Technical Product Manager" width="900"/>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="header-light.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="header.svg"/>
+    <img src="header.svg" alt="Timur Daminov, Technical Product Manager" width="900"/>
+  </picture>
 </p>
 
 <p align="center">
