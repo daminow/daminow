@@ -75,7 +75,7 @@ B2C. A Telegram platform for an education center.
 | Company | Role | Period |
 | --- | --- | --- |
 | TapFlight / RU PMDG | Technical Product Manager | December 2025 - Present |
-| Orthocenter | Product Lead | September 2024 - May 2026 |
+| Orthocenter | Technical Product Manager / Product Lead. | September 2024 - May 2026 |
 | SEHRIYO | Product Manager | May 2022 - August 2024 |
 
 <br/>
