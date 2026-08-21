@@ -18,7 +18,7 @@
 
 Middle Technical Product Manager with four years of experience. I work on B2B, B2C and B2B2C products, from discovery and requirements to launch, analytics and iteration. My engineering background helps me work directly with APIs, integrations, data models and architecture.
 
-Day to day this means product discovery, business and system requirements, prioritization, and keeping the roadmap and backlog in a usable state. After release I read product analytics and use it to decide what to build next. I can review an API contract, check a data model, and talk to engineers about architecture without a translator.
+Day to day this means product discovery, business and system requirements, prioritization, and keeping the roadmap and backlog in a usable state. After release I read product analytics and use it to decide what to build next. I can review API contracts, data models and architecture decisions directly with engineers.
 
 <br/>
 
