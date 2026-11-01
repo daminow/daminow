@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Timur Daminov, Technical Product Manager">
-  <title>Timur Daminov, Technical Product Manager</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Timur Daminov, Product Engineer">
+  <title>Timur Daminov, Product Engineer</title>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0b080c"/>
@@ -91,9 +91,9 @@
 
   <text class="name" x="450" y="57" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3" fill="#eae5ec">TIMUR DAMINOV</text>
 
-  <text class="role" x="450" y="85" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="4.5" fill="url(#role)">TECHNICAL PRODUCT MANAGER</text>
+  <text class="role" x="450" y="85" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="4.5" fill="url(#role)">PRODUCT ENGINEER</text>
 
-  <text class="models" x="450" y="107" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="1.5" fill="#8a8496">B2B  /  B2C  /  B2B2C  |  AVIATION  /  MEDTECH  /  EDTECH  /  E-COMMERCE</text>
+  <text class="models" x="450" y="107" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="1.5" fill="#8a8496">WEB APPLICATIONS  /  BACKEND SYSTEMS  /  SIMULATOR INTEGRATIONS</text>
 
   <line class="rule" x1="395" y1="127" x2="505" y2="127" stroke="url(#rule)" stroke-width="2.5" stroke-linecap="round"/>
 
@@ -104,17 +104,17 @@
       <line x1="650" y1="155" x2="650" y2="205"/>
     </g>
 
-    <text x="150" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">3 000</text>
-    <text x="150" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">sales per month</text>
+    <text x="150" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">Web</text>
+    <text x="150" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">TypeScript / React / Vue</text>
 
-    <text x="350" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">6 months</text>
-    <text x="350" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">concept to launch</text>
+    <text x="350" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">Backend</text>
+    <text x="350" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">APIs / SQL / Redis</text>
 
-    <text x="550" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">40%</text>
-    <text x="550" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">support handled by AI</text>
+    <text x="550" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">Desktop</text>
+    <text x="550" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">Rust / Tauri</text>
 
-    <text x="750" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">20+</text>
-    <text x="750" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">people coordinated</text>
+    <text x="750" y="179" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#c9b0ff">Simulation</text>
+    <text x="750" y="199" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" letter-spacing="0.8" fill="#8a8496">MSFS / SimConnect</text>
   </g>
 
   <rect class="bar" x="0" y="237" width="900" height="3" fill="url(#bar)" opacity="0.55"/>

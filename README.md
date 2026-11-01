@@ -2,124 +2,96 @@
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="header-light.svg"/>
     <source media="(prefers-color-scheme: dark)" srcset="header.svg"/>
-    <img src="header.svg" alt="Timur Daminov, Technical Product Manager" width="900"/>
+    <img src="header.svg" alt="Timur Daminov, Product Engineer" width="900"/>
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://daminov.net">daminov.net</a>
+  <a href="https://daminov.net">Website</a>
   &nbsp;&middot;&nbsp;
   <a href="https://t.me/tim_daminov">Telegram</a>
+  &nbsp;&middot;&nbsp;
+  <a href="mailto:timur.daminov77@gmail.com">Email</a>
 </p>
-
-<br/>
 
 ## About
 
-Middle Technical Product Manager with four years of experience. I work on B2B, B2C and B2B2C products, from discovery and requirements to launch, analytics and iteration. My engineering background helps me work directly with APIs, integrations, data models and architecture.
+I'm Timur Daminov, a product engineer based in Innopolis. I've worked with JavaScript since 2022, starting with freelance websites and moving into web applications, backend systems and flight simulator integrations.
 
-Day to day this means product discovery, business and system requirements, prioritization, and keeping the roadmap and backlog in a usable state. After release I read product analytics and use it to decide what to build next. I can review API contracts, data models and architecture decisions directly with engineers.
+I turn product requirements into working software: interfaces, API contracts, data models and the integration between them. My work includes handling concurrent requests, keeping state consistent across clients, and making operations recoverable when a connection or process fails.
 
-<br/>
+## Selected work
 
-<img src="divider.svg" width="100%" alt=""/>
+### TapFlight / RU_PMDG
 
-<br/>
+**Product Engineer · December 2025 – present**
 
-## Selected products
+An ecosystem for flight simulator users, with a desktop application, web services and in-simulator add-ons.
 
-### TapFlight / RU PMDG
+- **In-simulator panels.** Built MSFS 2020/2024 panels for crew controls, radar, checklists and emergency actions, packaged together as a Community add-on.
+- **Two-way synchronization.** Connected the panels to the desktop application through SimConnect, a WASM bridge and LVARs. Both interfaces use the same application state and command handlers.
+- **Bridge protocol.** Used change-based updates, periodic snapshots, heartbeats and command acknowledgements. Access is limited to TapFlight variables; repeated command sequence numbers are not executed again.
+- **Realtime messaging.** Separated WebSocket subscription lifecycle from notification preferences to avoid unnecessary reconnects. Added PostgreSQL-backed message deduplication so concurrent retries return the same stored message.
 
-B2B and B2C. An ecosystem for flight simulator users and partners.
+**Stack:** TypeScript, JavaScript, React, Rust/Tauri, Go, PostgreSQL, WebSockets, MSFS SDK, SimConnect.
 
-- 1,600 registered users and about 3,000 sales per month.
-- One account for catalog, library, licenses and purchases.
-- Card payments through T-Bank and SBP.
-- Transfer of purchases made before the platform launched.
-- AI assistant for customer support.
-- Automatic diagnostics of user side failures.
-- Stack I work with here: REST API, PostgreSQL, TypeScript, Node.js, Python, Docker, Xray-core, LLM API.
+[TapFlight](https://tapflight.app)
 
-[tapflight.app](https://tapflight.app) &nbsp;&middot;&nbsp; [rupmdg.com](https://rupmdg.com)
+### International Orthodontic Center MChJ
 
-### Orthocenter
+**Product Engineer · September 2024 – June 2026**
 
-B2B2C. A medical platform for clinics, specialists and patients.
+A platform for clinics, specialists and patients. Worked on this project and TapFlight in parallel from December 2025 to June 2026.
 
-- Led product development in a team of more than 20 people.
-- Launched the platform in six months.
-- Owned user scenarios, backlog, requirements, integrations and data models.
-- LLM assistant inside the product.
-- Monitoring of incidents and technical metrics.
-- Stack I work with here: REST API, PostgreSQL, Python, TypeScript, Node.js, Docker, LLM API.
+- **Consistent rate limits.** Implemented atomic minute/hour counters with Redis Lua scripts and Redis server time, keeping limits consistent across backend instances.
+- **Authorization on retries.** Rechecked access to the appointment before returning a stored command result, so idempotent replay does not bypass changed permissions.
+- **Committed-state updates.** Used PostgreSQL LISTEN/NOTIFY and SSE to refresh appointment data after transaction commit. Subscriptions are scoped to a clinic and bounded by connection limits.
+- **Data isolation.** Combined clinic scope, permissions and record-level checks for access to appointments.
 
-[orthocenter.uz](https://orthocenter.uz)
+**Stack:** TypeScript, React, Go, PostgreSQL, Redis, REST APIs, SSE.
 
-### SEHRIYO
+### Freelance web development
 
-B2C. A Telegram platform for an education center.
+**Web Developer · 2022 – 2024**
 
-- 1,300 users.
-- Automated the admin processes behind enrollment and support.
-- Cut one of those processes from seven days to two.
-- Stack: Telegram, Airtable, Make.
+Built landing pages and websites, then expanded into client applications and backend development.
 
-<br/>
+- Developed interfaces with JavaScript, TypeScript, React and Vue, including user interactions and server integration.
+- Worked on Node.js services and PostgreSQL-backed data storage.
+- Took projects from client requirements through implementation and feedback.
 
-<img src="divider.svg" width="100%" alt=""/>
+**Stack:** JavaScript, TypeScript, Node.js, PostgreSQL, React, Vue, Python, Go, HTML, CSS.
 
-<br/>
+## Engineering focus
 
-## Experience
+- **Web:** JavaScript, TypeScript, React, Vue, HTML, CSS.
+- **Backend and data:** Node.js, Go, Python, PostgreSQL, MySQL/MariaDB, Redis, SQL, REST APIs, WebSockets.
+- **Desktop and simulation:** Rust/Tauri, MSFS SDK, SimConnect, WASM bridges.
+- **Reliability:** transactions, idempotency, access control, concurrency, integration testing and recovery.
+- **Diagnostics:** event-loop delay, heap usage, latency percentiles, SQL metrics and Sentry.
+- **Tools:** Git, Docker, Playwright.
 
-| Company | Role | Period |
-| --- | --- | --- |
-| TapFlight / RU PMDG | Technical Product Manager | December 2025 - Present |
-| Orthocenter | Technical Product Manager / Product Lead. | September 2024 - May 2026 |
-| SEHRIYO | Product Manager | May 2022 - August 2024 |
+## Education and languages
 
-<br/>
+**Innopolis University** · Computer Science and Engineering, bachelor's degree in progress. Expected graduation: **2028**.
 
-<img src="divider.svg" width="100%" alt=""/>
+Russian: native. English: C1.
 
-<br/>
-
-## Skills
-
-**Product**
-Product Discovery, Prioritization, Roadmap, Backlog Management, Product Analytics, A/B Testing, Unit Economics, CJM, User Story Mapping, Business and System Requirements
-
-**Technical**
-REST API, SQL, PostgreSQL, Python, TypeScript, Node.js, Docker, LLM Integration
-
-**Tools**
-Jira, Figma, Git, Make, Airtable, Yandex Metrica
-
-<br/>
-
-<img src="divider.svg" width="100%" alt=""/>
-
-<br/>
-
-## Contacts
+## Contact
 
 - Website: [daminov.net](https://daminov.net)
 - Telegram: [@tim_daminov](https://t.me/tim_daminov)
-- GitHub: [@daminow](https://github.com/daminow)
-
-<br/>
+- Email: [timur.daminov77@gmail.com](mailto:timur.daminov77@gmail.com)
 
 <details>
 <summary>GitHub activity</summary>
 
-<br/>
-
 <p align="center">
-  <img src="stats.svg" alt="GitHub stats"/>
+  <img src="stats.svg" alt="GitHub activity and repository statistics"/>
 </p>
 
 <p align="center">
-  <img src="languages.svg" alt="Most used languages"/>
+  <img src="languages.svg" alt="Languages used in GitHub repositories"/>
 </p>
 
 <p align="center">
